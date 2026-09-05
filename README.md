@@ -22,6 +22,8 @@ To access the autograder:
 Понимаю, что можно было обучить более сложную модель, нежели только 2 линейных слоя + RELU, как сделал я,
 но как я понимаю, этого достаточно.
 
+![Tests](minitorch/photos/passed_tests.jpg)
+
 ## Датасет: SIMPLE
 Epoch  10  loss  34.9147059804924 correct 25
 Epoch  20  loss  34.72195056360476 correct 25
@@ -229,3 +231,5 @@ Epoch  470  loss  4.137426254380483 correct 49
 Epoch  480  loss  4.359857163219714 correct 49
 Epoch  490  loss  7.659671732059247 correct 47
 Epoch  500  loss  7.4285919993757 correct 48
+
+
