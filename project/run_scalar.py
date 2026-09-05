@@ -114,3 +114,23 @@ if __name__ == "__main__":
     RATE = 0.5
     data = minitorch.datasets["Simple"](PTS)
     ScalarTrain(HIDDEN).train(data, RATE)
+
+
+    PTS = 50
+    HIDDEN = 2
+    RATE = 0.5
+    data = minitorch.datasets["Diag"](PTS)
+    ScalarTrain(HIDDEN).train(data, RATE)
+
+
+    PTS = 50
+    HIDDEN = 2
+    RATE = 0.5
+    data = minitorch.datasets["Split"](PTS)
+    ScalarTrain(HIDDEN).train(data, RATE)
+
+    PTS = 50
+    HIDDEN = 2
+    RATE = 0.5
+    data = minitorch.datasets["Xor"](PTS)
+    ScalarTrain(HIDDEN).train(data, RATE)
